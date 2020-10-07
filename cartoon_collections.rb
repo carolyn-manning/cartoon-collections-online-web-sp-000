@@ -15,7 +15,6 @@ end
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |planeteer_call|
     planeteer_call.length > 4
-  end
 end
 
 
